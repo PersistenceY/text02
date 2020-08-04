@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/iconfont.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=0">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #imgs{
+            width: 374px;
+            height: 667px;
+            border: solid 1px red;
+            position: relative;
+            margin: auto;
+        }
+        #imgs .img{
+            /*流式布局 从上到下排列
+            float  */
+            width: 374px;
+            height: 150px;
+            background-image: url("../firstdemo/imgs/img-b7fc3d725588de73ac9541a57f955867.jpg");
+            background-size: 374px 150px;
+            position: absolute;
+            left:0;
+            top: 0;
+        }
+       #nav{
+            width:400px;
+            height: 54px;
+            background-color: darkgray ;
+            position: fixed;
+            bottom: 0;
+            display: flex;
+        }
+        #nav div{
+            width:400px;
+            height: 54px;
+            border: solid 1px black;
+            padding-top: 5px;
+            text-align: center;
+
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        </style>
+</head>
+<body>
+<a href="../firstdemo/index4.html">ssss</a>
+       <div id="imgs">
+           <div class="img"></div>
+           <div class="img"></div>
+           <div class="img"></div>
+           <div class="img"></div>
+           <div class="img"></div>
+       </div>
+      <div style="height: 2000px;width: 300px"></div>
+       <div id="nav">
+           <div>
+               <span class="iconfont" style="font-size: 30px"></span>
+               <span>aaa</span>
+           </div>
+           <div></div>
+           <div></div>
+           <div></div>
+       </div>
+</body>
+</html>
